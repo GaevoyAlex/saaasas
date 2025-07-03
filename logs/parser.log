@@ -1,0 +1,17 @@
+{"component": "App", "event": "Starting CoinGecko Parser", "logger": "__main__", "level": "info", "timestamp": "2025-07-03T22:01:33.108460Z"}
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+{"component": "BaseScheduler", "job_id": "daily_full_sync", "cron": "0 3 * * *", "event": "Cron job added", "logger": "scheduler.base_scheduler", "level": "info", "timestamp": "2025-07-03T22:01:33.517419Z"}
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+{"component": "BaseScheduler", "job_id": "hourly_price_update", "seconds": 3600, "event": "Interval job added", "logger": "scheduler.base_scheduler", "level": "info", "timestamp": "2025-07-03T22:01:33.518321Z"}
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+{"component": "BaseScheduler", "job_id": "health_check", "seconds": 1800, "event": "Interval job added", "logger": "scheduler.base_scheduler", "level": "info", "timestamp": "2025-07-03T22:01:33.519216Z"}
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+{"component": "BaseScheduler", "job_id": "maintenance_cleanup", "cron": "0 2 * * *", "event": "Cron job added", "logger": "scheduler.base_scheduler", "level": "info", "timestamp": "2025-07-03T22:01:33.519948Z"}
+Added job "JobManager.daily_full_sync" to job store "default"
+Added job "JobManager.hourly_price_update" to job store "default"
+Added job "JobManager.health_check" to job store "default"
+Added job "JobManager.maintenance_cleanup" to job store "default"
+Scheduler started
+{"component": "BaseScheduler", "event": "Scheduler started", "logger": "scheduler.base_scheduler", "level": "info", "timestamp": "2025-07-03T22:01:33.522186Z"}
+{"component": "JobManager", "event": "All jobs started successfully", "logger": "scheduler.job_manager", "level": "info", "timestamp": "2025-07-03T22:01:33.522508Z"}
+{"component": "App", "top_exchanges": 50, "top_tokens": 1000, "event": "Application started successfully", "logger": "__main__", "level": "info", "timestamp": "2025-07-03T22:01:33.522800Z"}

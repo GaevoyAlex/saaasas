@@ -1,0 +1,28 @@
+[project]
+name = "liberandum-scraper"
+version = "0.1.0"
+description = "Data scraper for liberandum app"
+package-mode = false
+
+authors = [
+    {name = "Александр",email = "95116155+GaevoyAlex@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "coingecko-sdk (>=1.4.2,<2.0.0)",
+    "boto3 (>=1.39.3,<2.0.0)",
+    "aiohttp (>=3.12.13,<4.0.0)",
+    "apscheduler (>=3.11.0,<4.0.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "structlog (>=25.4.0,<26.0.0)",
+    "click (>=8.2.1,<9.0.0)",
+    "pytest (>=8.4.1,<9.0.0)",
+    "asyncio-throttle (>=1.0.2,<2.0.0)",
+    "pydantic-settings (>=2.10.1,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
